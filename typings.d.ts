@@ -30,6 +30,7 @@ export interface Author {
   }
   image: string
   bio: [object]
+  posts: [Post]
 }
 
 export interface Comment {
